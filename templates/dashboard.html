@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+
+<title>Vehicle Monitoring Dashboard</title>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<link rel="stylesheet"
+href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+
+<link rel="stylesheet"
+href="/static/css/style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+
+<h1>
+<i class="fas fa-car"></i>
+Smart Vehicle Monitoring
+</h1>
+
+</header>
+
+<div class="cards">
+
+<div class="card speed-card">
+<h3>Speed</h3>
+<h2 id="speed">0 km/h</h2>
+</div>
+
+<div class="card fuel-card">
+<h3>Fuel</h3>
+<h2 id="fuel">0%</h2>
+</div>
+
+<div class="card engine-card">
+<h3>Engine</h3>
+<h2 id="engine">OFF</h2>
+</div>
+
+<div class="card temp-card">
+<h3>Temperature</h3>
+<h2 id="temp">0°C</h2>
+</div>
+
+</div>
+
+<div class="main-grid">
+
+<div id="map"></div>
+
+<div class="alerts">
+
+<h2>Alerts</h2>
+
+<ul id="alertList"></ul>
+
+</div>
+
+</div>
+
+<div class="chart-section">
+
+<canvas id="speedChart"></canvas>
+
+</div>
+
+</div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<script src="/static/js/dashboard.js"></script>
+
+</body>
+</html>
