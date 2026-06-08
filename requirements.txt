@@ -3,3 +3,28 @@ uvicorn
 tinydb
 jinja2
 websockets
+
+
+
+
+
+vehicle-monitoring-system/
+│
+├── app.py
+├── requirements.txt
+├── db.json
+│
+├── templates/
+│   └── dashboard.html
+│
+├── static/
+│   ├── css/
+│   │   └── style.css
+│   │
+│   ├── js/
+│   │   └── dashboard.js
+│   │
+│   └── images/
+│       └── vehicle.png
+│
+└── README.md
