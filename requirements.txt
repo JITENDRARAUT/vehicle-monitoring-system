@@ -28,3 +28,7 @@ vehicle-monitoring-system/
 │       └── vehicle.png
 │
 └── README.md
+
+
+
+SUDO SU
