@@ -34,3 +34,4 @@ vehicle-monitoring-system/
 SUDO SU
 apt update
 python3 --version
+apt install python3-pip python3-venv
