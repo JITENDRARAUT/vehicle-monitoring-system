@@ -32,3 +32,4 @@ vehicle-monitoring-system/
 
 
 SUDO SU
+apt update
