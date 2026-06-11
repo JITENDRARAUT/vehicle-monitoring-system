@@ -37,5 +37,5 @@ python3 --version
 apt install python3-pip python3-venv
 
 mkdir fastapi-lab
-
+cd fastapi-lab
 
