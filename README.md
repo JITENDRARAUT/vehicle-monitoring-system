@@ -17,3 +17,11 @@ A robust, real-time vehicle monitoring system engineered to capture, process, an
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+vehicle-monitoring-system/
+├── app.py                  # Main server execution logic & API routing
+├── requirements.txt         # Project dependencies & environment versions
+├── static/                 # Client-side style layouts and scripts
+│   ├── css/
+│   └── js/
+└── templates/              # Dynamic server-side HTML render frames
+    └── index.html          # Core Telemetry Mission Control Dashboard
