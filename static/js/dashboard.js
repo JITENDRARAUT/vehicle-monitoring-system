@@ -89,7 +89,6 @@ speedData.shift();
 
 }
 
-  
 chart.update();
 
 if(data.speed > 100){
