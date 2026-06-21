@@ -6,7 +6,7 @@ A robust, real-time vehicle monitoring system engineered to capture, process, an
 
 ## 🏗️ Architectural Overview
 
-```text
+``text
  [ Vehicle OBD-II / IoT Node ] ───(Live Data Stream)───► [ Python Backend Engine ]
                                                                │
      ┌─────────────────────── Persists Metrics ────────────────┤
