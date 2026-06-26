@@ -7,7 +7,6 @@ from datetime import datetime
 import asyncio
 import random
 
-
 app = FastAPI(title="Vehicle Monitoring System")
 
 db = TinyDB("db.json")
