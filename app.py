@@ -22,7 +22,7 @@ async def dashboard(request: Request):
         "dashboard.html",
         {"request": request}
     )
-
+a
 
 @app.websocket("/ws")
 async def websocket_endpoint(websocket: WebSocket):
