@@ -10,7 +10,7 @@ import random
 app = FastAPI(title="Vehicle Monitoring System")
 
 db = TinyDB("db.json")
-a
+
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
 templates = Jinja2Templates(directory="templates")
