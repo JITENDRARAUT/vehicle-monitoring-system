@@ -12,7 +12,7 @@ app = FastAPI(title="Vehicle Monitoring System")
 db = TinyDB("db.json")
 
 app.mount("/static", StaticFiles(directory="static"), name="static")
-
+a
 templates = Jinja2Templates(directory="templates")
 
 
