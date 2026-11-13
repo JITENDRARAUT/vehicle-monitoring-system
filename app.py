@@ -5,7 +5,7 @@ from fastapi.templating import Jinja2Templates
 from tinydb import TinyDB
 from datetime import datetime
 import asyncio
-import random
+import random 
 
 app = FastAPI(title="Vehicle Monitoring System")
 
